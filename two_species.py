@@ -1,3 +1,9 @@
+#To run the code, first activate the dedalus environment by typing 'conda activate dedalus3' in the terminal followed by typing 'python3 two_species.py'.
+#The code will run, generating HDF5 files which will be saved in the folder 'snapshots'.
+#The ipynb notebook analysis.ipynb can be used to analyse the contents of the folder snapshots and make movies.
+
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import dedalus.public as d3
