@@ -1,4 +1,4 @@
-# Stress_Patterning_and_Finite_Time_Elastic_Singularities_in_a_Renewable_Active_Elastomer
+# Stress Patterning and Finite Time Elastic Singularities in a Renewable Active Elastomer
 This contains codes for the manuscript 'Stress Patterning and Finite Time Elastic Singularities in a Renewable Active Elastomer'
 
 The file non_linear_eqn.m is written in MATLAB and the files one_species.py, two_species.py is written in Python using the package Dedalus.
