@@ -1,6 +1,4 @@
-% This numerical scheme is to analyse the system of equations (Eq 1a, 1b
-% and 1c: as written down in the manuscript)
-% This can be compiled and run using MATLAB. This generates a movie in .avi
+% This code can be compiled and run using MATLAB. This generates a movie in .avi
 % format on completion of the run time.
 %###########################################
 %advection terms are computed using upwinding schemes
