@@ -57,7 +57,7 @@ problem = d3.IVP([u, v, r], namespace=locals())
 
 
 
-problem.add_equation("dt(u) - eta*dx(dx((dt(u)))) - dx(chi*(zeta1*r)) + regular = dx((b - (c*c/a)- 2*chip*(c/a)*(zeta1*r))*dx(u)) + dx(  (chipp*0.5*((c/a)**2)*(zeta1*r)*((dx(u))**2))) + dx(((-chippp/6)*((c/a)**3)*(zeta1*r))*((dx(u))**3))")
+problem.add_equation("dt(u) - eta*dx(dx((dt(u)))) - dx(chi*(zeta1*r)) + regular = dx((b - (c*c/a)- chip*(c/a)*(zeta1*r))*dx(u)) + dx(  (chipp*0.5*((c/a)**2)*(zeta1*r)*((dx(u))**2))) + dx(((-chippp/6)*((c/a)**3)*(zeta1*r))*((dx(u))**3))")
 problem.add_equation("v - dt(u) = 0") 
 problem.add_equation("dt(r) - d_0*dx(dx((r))) = - dx(v*r) + 1-(c/a)*dx(u) - k_u*r")
 
